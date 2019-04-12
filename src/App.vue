@@ -1,23 +1,9 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <router-view @collectAnswer='add'></router-view>
-    <div>{{ $store.state.answers }}</div>
+    <router-view></router-view>
   </div>
 </template>
-
-<script>
-import { mapGetters, mapActions } from 'vuex'
-export default {
-  name: 'app',
-  computed: mapGetters([
-    'answers'
-  ]),
-  methods: mapActions([
-    'add'
-  ])
-}
-</script>
 
 <style>
 #app {

@@ -90,6 +90,7 @@
     font-family: proxima-nova, sans-serif;
     line-height: 108px;
     letter-spacing: -9px;
+    text-align: left;
 }
 
 .ss-text.the {
